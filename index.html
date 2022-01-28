@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prática 02</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__titulo">
+            Cadastro
+        </h1>
+    </header>
+    <main class="main__conteudo">
+        <h2 class="h2__formulario">
+            Informe o que se pede 
+        </h2>
+        <form class="formulario" action="">
+            <label class="input__nome" for="">Digite o seu nome: </label>
+            <input class="input__nome__botao" type="text" name="txtnome" id="txtnome"><br>
+            <label class="input__idade" for="">Digite a sua idade:</label>
+            <input class="input__idade__botao" type="number" name="txtidade" id="txtidade"><br>
+            <label  class="input__email" for="">Digite o seu e-mail:</label>
+            <input class="input__email__botao" type="email" name="txtemail" id="txtemail" placeholder="fulano@destino.com"> <br>
+            <input class="botao"type="button" value="Enviar" onclick="resultado()">
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

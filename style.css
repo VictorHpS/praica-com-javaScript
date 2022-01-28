@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Montserrat:wght@400;500&display=swap');
+ /*'Dongle', sans-serif;
+ 'Montserrat', sans-serif;*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ :root{
+     --fonte-1:'Dongle', sans-serif;
+     --fonte-2: 'Montserrat', sans-serif;
+     --fonte-3:'Poppins', sans-serif;
+
+     --cor-1:#0D1821;
+     --cor-2:#344966;
+     --cor-3:#E6AACE;
+     --cor-4:#F0F4EF;
+     --cor-5:#BFCC94;
+     
+
+ }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:var(--cor-1);
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-1);
+}
+
+.header__titulo{
+    font-family: var(--fonte-1);
+    color: var(--cor-3);
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.h2__formulario{
+    padding-top: 20px;
+    color: var(--cor-4);
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.main__conteudo{
+    max-width: 400px;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #344966;
+    height: 50vh;
+    border-radius: 15px;
+    
+}
+
+
+.formulario{
+    padding-top: 8px;
+    color: var(--cor-4);
+    font-family: var(--fonte-3);
+    font-size: 16px;
+}
+
+.input__nome__botao{
+    font-family: var(--fonte-3);
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px
+}
+
+.input__idade__botao{
+    font-family: var(--fonte-3);
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px
+}
+
+.input__email__botao{
+    font-family: var(--fonte-3);
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px
+}
+
+.botao{
+    font-weight: 700;
+    font-family: var(--fonte-3);
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 9px;
+    border: none;
+    text-transform: uppercase;
+    background-color: var(--cor-5);
+}
+
+@media screen and (min-width: 320px) {
+    .input__nome{
+        font-size: 15px;
+    }
+
+    .input__idade{
+        font-size: 15px;
+    }
+
+    .input__email{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .h2__formulario{
+        font-size: 39px;
+    }
+
+    .input__nome{
+        font-size: 16px;
+    }
+
+    .input__idade{
+        font-size: 16px;
+    }
+
+    .input__email{
+        font-size: 16px;
+    }
+
+    .input__nome__botao{
+        margin-bottom: 10px;
+    }
+
+    .input__idade__botao{
+        margin-bottom: 10px;
+    }
+
+    .input__email__botao{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .h2__formulario{
+        font-size: 40px;
+    }
+
+    .input__nome{
+        font-size: 17px;
+    }
+
+    .input__idade{
+        font-size: 17px;
+    }
+
+    .input__email{
+        font-size: 16px;
+    }
+
+    .input__nome__botao{
+        margin-bottom: 10px;
+    }
+
+    .input__idade__botao{
+        margin-bottom: 10px;
+    }
+
+    .input__email__botao{
+        margin-bottom: 10px;
+    }
+}
